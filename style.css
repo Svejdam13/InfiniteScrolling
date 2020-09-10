@@ -6,8 +6,8 @@
 }
 
 body {
-  background-color: #296ca8;
-  color: #fff;
+  background-color: #0f1010;
+  color: #999;
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
@@ -37,7 +37,7 @@ h1 {
 
 .post {
   position: relative;
-  background-color: #4992d3;
+  background-color: #0f1010;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   border-radius: 3px;
   padding: 20px;
@@ -68,15 +68,15 @@ h1 {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: #fff;
-  color: #296ca8;
+  background: #575757;
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 7px 10px;
 }
 
-#loader {
+.loader {
   opacity: 0;
   display: flex;
   position: fixed;
